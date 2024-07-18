@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NumberGusser"
+            android:paddingTop="20sp"
+            android:paddingBottom="5sp"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guess a random number"
+            android:paddingBottom="20sp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:gravity="center"
+        android:paddingTop="20sp"
+        android:paddingBottom="15sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generated number"
+            android:paddingBottom="5sp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:paddingBottom="5sp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected number"
+            android:paddingBottom="5sp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:paddingBottom="5sp"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/sign_up_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/gray"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintEnd_toStartOf="@+id/sign_up_btn2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/gray"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/gray"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/sign_up_btn2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="@color/gray"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sign_up_btn5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.424"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:backgroundTint="@color/gray"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.424"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:backgroundTint="@color/gray"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="@+id/sign_up_btn5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.424"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="@color/gray"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sign_up_btn8"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.759"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:backgroundTint="@color/gray"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.759"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/sign_up_btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:backgroundTint="@color/gray"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:cornerRadius="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toEndOf="@+id/sign_up_btn8"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.759"
+            tools:ignore="VisualLintButtonSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Score - 2"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

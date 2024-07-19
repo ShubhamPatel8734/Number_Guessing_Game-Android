@@ -3,9 +3,7 @@
 
 https://github.com/user-attachments/assets/1dc7be42-578a-49e6-b918-369b5630a7c0
 
-# Some Screenshots of the game:\
-![Number_Guesser(1 0)](https://github.com/user-attachments/assets/bf03dfd9-189a-4a7c-9a80-04c213d47987)
-
+# Some Screenshots of the game:
 ![Number_Guesser(1)](https://github.com/user-attachments/assets/c5d4796f-5e4a-4a82-9c5d-13b0479b2db4)
 ![Number_Guesser(2)](https://github.com/user-attachments/assets/d631fd29-372d-4add-bcff-366260566e2b)
 ![Number_Guesser(3)](https://github.com/user-attachments/assets/40560fef-c290-42ac-a7b7-f863524a4ebc)
